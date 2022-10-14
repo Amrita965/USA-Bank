@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<body class="mx-3 bg-gray-100 ">
+    <header>
+        <h1 class="mt-5 font-semibold text-center text-2xl text-gray-400">WELCOME TO <span
+                class="text-pink-700 font-bold">USA BANK</span>!!</h1>
+    </header>
+    <main>
+        <section class="container mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mt-12 mb-12">
+                <div>
+                    <img class="w-full" src="./images/bank.png" alt="">
+                </div>           
+                <div class="flex flex-col justify-center">
+                    <img class="mx-auto w-1/6" src="images/285655_user_icon.png" alt="">
+                    <h3 class="text-center text-lg font-medium mb-2">Please Login</h3>
+                    <p class="mb-2 font-semibold"><label for="">Email *</label></p>
+                    <p><input class="w-full mb-2 px-2 border-2 border-neutral-400 rounded-lg" type="email" name="" id="email-field" placeholder="Enter Your Email"></p>
+                    <p class="mb-2 font-semibold"><label for="">Password *</label></p>
+                    <p><input class="w-full mb-2 px-2 border-2 border-neutral-400 rounded-lg" type="password" name="" id="password-field" placeholder="Enter Your Password"></p>
+                    <button id="submit-btn" class="bg-orange-500 text-white px-5 py-1 rounded-lg hover:bg-orange-600 w-32">Submit</button>
+                </div>
+        </section>
+    </main>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
